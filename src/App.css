@@ -70,6 +70,13 @@
   outline: none;
 }
 
+.footer{
+  background-color: #1b053e;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+}
+
 body{
   background-color: #a19ca1;
   font-family: 'Segoe UI';
