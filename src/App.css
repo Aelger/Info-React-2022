@@ -41,6 +41,8 @@
 .links {
   color: #a19ca1;
   text-decoration: none;
+  cursor: pointer;
+  /* asd */
 }
 
 .links:hover {
