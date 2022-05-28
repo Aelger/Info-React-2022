@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.border-card {
+  border-radius: 2px;
+  margin: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-body {
+  box-shadow: #04000a 0 5px 2px -2px;
+  background-color: #1b053e;
+  width: 25rem;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-text{
+  color: rgb(255, 255, 255);
+  padding: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-size {
+  width: 25rem;
+  height: 15rem;
+}
+
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.container-nav {
+  padding: 1rem;
+  background-color: #1b053e;
+  color: rgb(255, 255, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gap {
+  gap: 10px;
+}
+
+.links {
+  color: #a19ca1;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: rgb(212, 215, 18);
+  text-decoration: none;
+}
+
+.search-input{
+  width: 10rem;
+  height: 1.5rem;
+  background-color: #a19ca1;
+  color: #1b053e;
+  padding-top: 0.5rem;
+  text-decoration: none;
+  border: transparent;
+  border-bottom: #1b053e solid 1px;
+  box-shadow: #04000a 0 2px 2px -2px;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+body{
+  background-color: #a19ca1;
+  font-family: 'Segoe UI';
 }
